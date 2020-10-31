@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Общие стили*/
+ 
+/*Стиль для каждой секции*/
+.alignment {
+    width: 1120px; /*ширина*/
+    margin: 0 auto; /*центрирование объектов*/
+}
+
+/*КНОПКА DOWNLOAD*/
+.button {
+    color: #ffffff;
+    background: #FA8F21;
+    width: 134px;
+    height: 42px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    border: 1px solid #FFFFFF; /* Параметры рамки */
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.button:focus {
+    background: rgba(51, 51, 51, 0.58); /* Цвет фона */
+    border: 1px solid #db7d36; /* Параметры рамки */
+}
+
+.button:hover{
+    background-color: #db7d36;
+}
+
+/*ЗАГОЛОВОК*/
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    padding-bottom: 22px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+}
+
+.line2 {
+    width: 102px;
+    height: 2px;
+    background: #FF8B38;
+}
+
+.title {
+    padding-top: 22px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+}
+
+/*ДАННЫЕ*/
+
+.date {
+    width: 100%;
+    background: white;
+    padding: 44px 42px 12px;   
+}
+
+.date input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid  #dfdfdf;
+    padding-bottom: 8px;
+    margin-bottom: 44px;
+    color: #BDBDBD;
+    font-family:  Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+}
+
+.date input:focus {
+    background: #ffe; /* Цвет фона */
+    border: 1px solid #db7d36; /* Параметры рамки */
+    border-radius: 4px 4px 4px 4px;
+}
+
+/*HEADER SECTION*/
+
+.header-section {
+    background-color: black; /*фон*/
+}
+
+.alignment.alignment-wrapper {
+    display: flex;
+    padding: 19px 0px; /*расстояние по часовой стрелке начиная сверху*/
+    align-items: center;
+}
+
+.alignment-wrapper a {
+    outline: none;
+}
+
+.alignment-wrapper a:focus {
+    border: 1px solid #db7d36; /* Параметры рамки */
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation .navigation-item {
+    color: #ffffff; /*цвет*/
+    margin-left: 22px;
+    font-family: Raleway; /*шрифт*/
+    font-style: normal; /*начертание шрифта*/
+    font-weight: 600; /*насыщенность шрифта*/
+    font-size: 14px; /*размер шрифта*/
+    line-height: 27px; /*межстрочный интервал текста*/
+    text-decoration: none; /*оформление текста в виде его подчеркивания и др.*/
+    outline: none;
+}
+
+.navigation-item:hover {
+    text-decoration: underline;
+    color: blue;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+.navigation-item:focus {
+    border: 1px solid #db7d36; /* Параметры рамки */
+}
+
+
+/*FIRST SECTION*/
+
+.first-section {
+    background-image: url("4.3.Images/2.Background.jpg");
+    width: 100%;
+}
+
+.first-section .alignment.main-block {
+    display: flex;
+    padding: 102px 0px 140px 0px;
+}
+
+.main-block .axit {
+    width: 542px;
+}
+
+.axit .axit-heading {
+    color: #ffffff;
+    width: 542px;
+    padding: 32px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+.axit .line1 {
+    width: 100px;
+    height: 2px;
+    background: white;
+}
+
+.axit .axit-title {
+    color: #ffffff;
+    width: 491px;
+    padding: 32px 0px 42px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+}
+
+.first-section .main-block .axit .button:hover {
+    background-color: #db7d36;
+}
+
+.first-section .main-block .axit .button{
+    background: transparent;    
+}
+
+.first-section .form {
+    display: flex;
+    width: 360px;
+    margin-left: auto;
+    padding-top: 40px;
+}
+
+.first-section .form .first-block {
+    background: #dfdfdf;
+    border-radius: 4px 4px 0px 0px;
+    border: 0px;
+}
+
+.first-section .form .first-block .title {
+    padding: 14px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center; 
+}
+
+.first-section .form .first-block .title .free {
+      color:rgb(240, 126, 50);
+  }
+
+.first-section .form .second-block button:hover {
+    background-color: #db7d36;
+}
+
+.first-section .form .second-block button {
+    color:white;
+    width: 100%;
+    padding: 14px 54px;
+    background: #FF9B51;
+    border: 0px;
+    border-radius: 0px 0px 4px 4px; 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    outline: none;
+    transition: all 0.2s ease-out;
+}
+
+.first-section .form .second-block button:focus {
+    border: 2px solid black; /* Параметры рамки */
+}
+
+/*SECOND SECTION*/
+
+.second-section {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.25);
+}
+
+.second-section .alignment.social-media {
+    display: flex;
+    padding: 18px 0px;
+    align-items: center;
+}
+
+.second-section .social-media-heading {
+    color: #333333;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: flex-end;
+    padding-bottom: 6px;
+}
+
+.second-section .social-media-title {
+    width: 390px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+    align-items: center;
+}
+
+.second-section .social-media-navigation {
+    margin-left: auto;
+    outline: none;    
+}
+
+.second-section .social-media-navigation a {
+    outline: none;    
+}
+
+.second-section .social-media-navigation .navigation-item {
+    margin-left: 32px;
+    outline: none;
+    border: none;
+}
+
+/*THIRD SECTION*/
+
+.third-section {
+    width: 100%;
+    background-color: #F5F5F5;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.25);
+}
+
+.third-section .alignment.third-main-block {
+    display: flex;
+    padding: 131px 0px;
+}
+
+.third-section .third-main-block .tab {
+    padding: 0px 101px 0px 0px;
+}
+
+.tab button {  
+    width: 112px;
+    border: none;
+    outline: none;
+    padding: 46px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    background: black;
+}
+
+.third-section .third-main-block .tab .tab1 {
+    background: #FF9B51;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid  #FFFFFF;
+}
+
+.third-section .third-main-block .tab .tab3 {
+    border-radius: 0px 0px 4px 4px;
+    border-top: 1px solid  #FFFFFF;
+}
+
+.third-section-information .information-heading {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: flex-end;
+    color: #000000;
+}
+
+.third-section-information .information-title {
+    padding: 42px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #86878B;
+}
+
+.third-main-block .background-city {
+    padding: 0px 0px 0px 90px;    
+}
+
+/*FOURTH SECTION*/
+
+.fourth-section {
+    width: 100%;
+    background-color: white;
+    padding: 102px 0px 111px 0px;
+}
+
+.fourth-section-about{
+    display: flex;
+    padding-top: 66px;
+    justify-content: space-around;
+}
+
+.about-information {
+    display: flex;
+    width: 349px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-information-heading {
+    padding: 27px 0px 16px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.about-information-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878B;
+    text-align: center;
+}
+
+/*FIFTH SECTION*/
+
+.fifth-section {
+    width: 100%;
+    background: #F5F5F5;
+    padding: 102px 0px 0px 0px;
+}
+
+.fifth-section .main-heading .line2 {
+    width: 64px;
+}
+
+.fifth-section .alignment .pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+    padding-bottom: 111px;
+}
+
+.pricing-block {
+    width: 343px;
+}
+
+.pricing-block:first-child {
+    margin-top: 35px;
+}
+
+.pricing-block:last-child {
+    margin-top: 35px;
+}
+
+.pricing-block .title {
+    padding: 18px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    background: #333333;
+}
+
+.pricing-block .price {
+    padding: 37px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    background: #333333;
+    border-top: 1px solid  #FFFFFF;
+    border-bottom: 1px solid  #FFFFFF;
+}
+
+.pricing-block .period {
+    padding: 13px 0px;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    background: #333333;
+    border-bottom: 5px solid #FF8B38;
+}
+
+.pricing-block .popular {
+    padding: 3px 0px 8px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #FF8B38;
+}
+
+.pricing-block .terms {
+    padding: 8px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #86878B;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-bottom: 1px solid  #F5F5F5;
+}
+
+.terms:last-child {
+    border-bottom: none;
+}
+
+/*SIXTH SECTION*/
+
+.sixth-section {
+    width: 100%;
+    background: white;
+    padding: 73px 0px 0px 0px;
+}
+
+.sixth-section .main-heading .line2 {
+    width: 64px;
+}
+
+.sixth-section .alignment .review {
+    display: flex;
+    margin: 85px 0px 111px 0px;
+    justify-content: space-between;
+}
+
+.review-block .review-message {
+    background: #F5F5F5;
+    width: 290px;
+    padding: 25px 0px 18px 12px;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #86878B;
+    position: relative;
+}
+
+.review-message::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 26px; bottom: -27px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 20px solid #F5F5F5; /* Добавляем треугольник */
+}
+
+.review-block .avatar-block{
+    display: flex;
+    width: 290px;
+    padding-top: 28px;  
+}
+
+.review-block .avatar-block .avatar-block-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.review-block .avatar-block .avatar-date {
+    display: flex;
+    padding-left: 16px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar-date .avatar-date-name {
+    padding-bottom: 4px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.avatar-date .avatar-date-speciality {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+/*SEVENTH SECTION*/
+
+.seventh-section {
+    position: relative;
+    background: url("4.3.Images/15.Background2.jpg");
+    background-size: cover; 
+    width: 100%;
+}
+
+.background-gray {
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.58);
+    width: 100%;
+    height: 297px;
+    z-index: 1;
+}
+
+.seventh-section .main-heading {
+    padding: 54px 0px;
+}
+
+.seventh-section .main-heading .heading {
+    color: white;
+    z-index: 2;
+}
+
+.seventh-section .main-heading .line2 {
+    width: 64px;
+    background: white;
+    z-index: 2;
+}
+
+.seventh-section .main-heading .title {
+    color: white;
+    padding-bottom: 38px;
+    z-index: 2;
+}
+
+.seventh-section .main-heading  .button:hover {
+    background-color: #db7d36;
+}
+
+.seventh-section .main-heading .button{
+    background: transparent;
+    z-index: 2;
+}
+
+/*EIGHTH SECTION*/
+
+.eighth-section {
+    width: 100%;
+    background: white;
+    padding: 73px 0px 0px 0px;
+}
+
+.eighth-section .main-heading .line2 {
+    width: 64px;
+}
+
+.commentary-date {
+    display: flex;
+    padding: 119px 0px 9px 0px;
+}
+
+.commentary-date .date {
+    flex-direction: column;
+    width: 527px;
+    padding: 0px;
+}
+
+.commentary-date .date input {
+    margin-bottom: 28px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.commentary-message {
+    margin-left: 56px;
+    width: 509px;
+    height: 154px;
+}
+
+.commentary-message textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid  #dfdfdf;
+    padding: 8px 0px 8px 12px;
+    color: #BDBDBD;
+    font-family:  Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+}
+
+.commentary-message textarea:focus {
+    background: #ffe; /* Цвет фона */
+    border: 1px solid #db7d36; /* Параметры рамки */
+    border-radius: 4px 4px 4px 4px;
+}
+
+.commentary-button {
+    display: flex;
+    justify-content: center;
+}
+
+.commentary-button .button {
+    margin-bottom: 105px;
+    width: 163px;
+    height: 42px;
+}
+
+
+/*FOOTER SECTION*/
+
+.footer-section {
+    width: 100%;
+    background-color: black;
+    padding: 28px;
+}
+
+.alignment.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation-footer a {
+    outline: none;
+}
+
+.navigation-footer .navigation-item {
+    margin-left: 34px;
+    outline: none;
+    border: none;
+}
+
+.footer-main .white4 {
+    padding: 22px 0px 0px 0px;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
