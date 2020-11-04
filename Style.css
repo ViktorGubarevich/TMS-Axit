@@ -156,7 +156,7 @@
 /*FIRST SECTION*/
 
 .first-section {
-    background-image: url("4.3.Images/2.Background.jpg");
+    background-image: url("Images/2.Background.jpg");
     width: 100%;
 }
 
@@ -600,7 +600,7 @@
 
 .seventh-section {
     position: relative;
-    background: url("4.3.Images/15.Background2.jpg");
+    background: url("Images/15.Background2.jpg");
     background-size: cover; 
     width: 100%;
 }
